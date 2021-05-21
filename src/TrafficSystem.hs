@@ -1,3 +1,6 @@
+module TrafficSystem where
+    {-
+
 {-# LANGUAGE OverloadedStrings #-}
 import CodeWorld
 import Data.Text
@@ -134,4 +137,4 @@ main = animationOf $
   smallController bycicleTrafficLights
   <> smallController pedestrianTrafficLights
   <> carController
-
+-}
